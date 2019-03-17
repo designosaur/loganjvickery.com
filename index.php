@@ -8,7 +8,7 @@
 		</header>
 		<section id="skills">
 			<h2>Skills</h2>
-			<icons>
+			<icons class="contain">
 				<icon>
 					<img src="images/icon_code.png">
 					<p>HTML & CSS</p>
@@ -46,6 +46,10 @@
 				<h2>Selected Works</h2>
 				<tiles>
 					<tile>
+						<a class="htmlform" href="/htmlformat/html_formatter.html"></a>
+						<p>Web Application</p>
+					</tile>
+					<tile>
 						<a class="megamenu" href="megamenu.php"></a>
 						<p>Web Development</p>
 					</tile>
@@ -59,15 +63,11 @@
 					</tile>
 					<tile>
 						<a class="planets" href="planets.php"></a>
-						<p>Web Development</p>
+						<p>Web Application</p>
 					</tile>
 					<tile>
 						<a class="biketrain" href="biketrain.php"></a>
 						<p>Mobile UI Design</p>
-					</tile>
-					<tile>
-						<a class="polygon" href="polygon.php"></a>
-						<p>Furniture Design</p>
 					</tile>
 					<tile>
 						<a class="hop" href="hop.php"></a>
