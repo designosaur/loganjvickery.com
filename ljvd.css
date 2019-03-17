@@ -1,0 +1,412 @@
+/*
+Teal: #3b9fab
+Green: #aabb00
+Orange: #ff8800
+Grey BG: #b5b5b5
+ */
+
+body {
+    background: #ccc url('images/tribg.jpg') fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin: 0px;
+    overflow-x: hidden;
+    padding: 0px;
+    width: 100%;
+}
+
+a {
+    border: 0;
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3b9fab;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin: 15px 0;
+}
+
+img {
+    border: 0;
+    text-decoration: none;
+}
+
+header {
+    background: #fff url('images/rocksbg.jpg') center no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+section {
+    display: block;
+    padding: 40px 0 50px;
+    width: 100%;
+}
+
+#wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+nav {
+    display: block;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin: 0px;
+    text-align: right;
+}
+
+nav > div {
+    background: rgba(247, 183, 80, .8);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 3px 10px;
+}
+
+nav a {
+    color: #fff;
+    display: inline-block;
+    padding: 7px 12px;
+    vertical-align: top;
+}
+
+nav a:hover {
+    color: #3f4b54;
+}
+
+.hello {
+    background: rgba(0, 0, 0, 0.2);
+    margin: 6rem 0 5rem;
+}
+
+.hellotext {
+    color: #fff;
+    font: 1.4rem 'Open Sans';
+    margin: auto;
+    padding: 60px 25px;
+}
+
+#gallery {
+    background: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+#skills {
+    background: #ccc url('images/tribg.jpg') scroll;
+    margin: auto;
+    text-align: center;
+}
+
+icons {
+    display: block;
+    padding: 0;
+}
+
+icon {
+    display: inline-block;
+    margin: 30px 0 0;
+    width: 200px;
+    list-style: none;
+}
+
+.icon {
+    margin: auto;
+    text-align: center;
+    width: 205px;
+}
+
+#awards {
+    background: #eee scroll;
+    margin: auto;
+    text-align: center;
+}
+
+#about {
+    background: #999 url('images/tribg_dark.jpg') scroll;
+    color: #ddd;
+    margin: auto;
+    text-align: center;
+}
+
+#contact {
+    background: #3b9fab url('images/tribg_teal.jpg') scroll;
+    color: #000;
+    margin: auto;
+    text-align: center;
+}
+
+#foot {
+    color: #555;
+    font-size: .7rem;
+    margin: auto;
+    padding: 20px 20px 30px;
+    text-align: center;
+}
+
+.max .contain {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.about_text {
+    margin: 20px 15px;
+    text-align: left;
+}
+
+.about_text>p {
+    font-size: 1.3rem;
+}
+
+.about_text img {
+    float: left;
+    margin: 10px 20px 0 0;
+}
+
+.contactmax {
+    max-width: 700px;
+    margin: auto;
+}
+
+.center_form {
+    background: #fff;
+    padding: 20px;
+}
+
+input,
+textarea {
+    border: 0 solid;
+    border-bottom: 1px solid #999;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+input {
+    height: 40px;
+}
+
+textarea {
+    height: 160px;
+}
+
+.send {
+    background-color: rgb(247, 183, 80);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    height: 40px;
+    margin: 15px 0 0;
+    padding: 3px 30px;
+    width: auto;
+}
+
+.orangeover:hover {
+    background: #3b9fab;
+}
+
+.limitwidth {
+    max-width: 960px;
+}
+
+#gallery li {
+    cursor: pointer;
+    list-style: none;
+    margin: 30px 15px 0;
+    width: 210px;
+}
+
+#gallery p {
+    font-size: 1.1rem;
+    margin: 0 0 15px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+h2 {
+    font: 2rem 'Open Sans';
+    font-weight: 700;
+}
+
+.largetext {
+    font: 1.6em 'Open Sans';
+    font-weight: 700;
+}
+
+.space {
+    margin: 0 50px 0 0;
+}
+
+.workwrap {
+    margin: auto;
+    max-width: 840px;
+    text-align: center;
+    width: 100%;
+}
+
+.workspace {
+    background: #fff;
+    padding: 30px;
+    text-align: left;
+}
+
+.workspace a img {
+    max-width: 780px;
+    width: 100%;
+}
+
+.workspace > p {
+    font-size: 1.2rem;
+}
+
+.workspace > p > a {
+    color: #ab0;
+}
+
+.back > p {
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+tiles {
+    display: block;
+}
+
+tile {
+    display: inline-block;
+    margin: 11px 22px;
+}
+
+tile a {
+    background: url() left -2px top -2px no-repeat;
+    border: 3px solid #fff;
+    border-radius: 103px;
+    display: block;
+    height: 195px;
+    width: 195px;
+}
+
+tile a:hover {
+    border-color: #3b9fab;
+}
+
+tile a.megamenu {
+    background-image: url(work/megamenu_rnd.png);
+}
+
+tile a.jsgame {
+    background-image: url(work/jsgame_rnd.png);
+}
+
+tile a.doorpi {
+    background-image: url(work/doorpi_rnd.png);
+}
+
+tile a.planets {
+    background-image: url(work/planets_rnd.png);
+}
+
+tile a.biketrain {
+    background-image: url(work/biketrain_rnd.png);
+}
+
+tile a.polygon {
+    background-image: url(work/poly_rnd.png);
+}
+
+tile a.hop {
+    background-image: url(work/hop_rnd.png);
+}
+
+tile a.wfd {
+    background-image: url(work/wfd_rnd.png);
+}
+
+tile a.dbv {
+    /*background-image: url(work/dbv_rnd.png);*/
+    background: url(work/dbv_rnd.png) top -1px left -2px no-repeat;
+    background-size: 199px;
+}
+
+tile a.nexttable {
+    background-image: url(work/nexttable_tile.jpg);
+}
+
+tile a.vicarian {
+    background-image: url(work/vic_rnd.png);
+}
+
+.wfd_gif {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.asterick {
+    color: #555;
+    font: .8rem 'Open Sans';
+    font-style: italic;
+    padding: 10px;
+    text-align: left;
+}
+
+/* LARGE MOBILE */
+@media screen and (min-width: 481px) {
+    .hellotext {
+        font-size: 2.2rem;
+    }
+
+    .topspace {
+        height: 10rem;
+    }
+
+    .center_form {
+        min-width: 420px;
+    }
+
+    .workspace>p {
+        font-size: 1.5rem;
+    }
+
+    .back>p {
+        font-size: 1.5rem;
+    }
+
+    .about_text p {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+}
+
+/* LAPTOPS & DESKTOPS */
+@media screen and (min-width: 700px) {
+    .center_form {
+        padding: 20px 50px;
+        width: 600px;
+    }
+}
+
+/* Over 1000 wide */
+@media screen and (min-width: 1001px) {
+
+    .contain,
+    #menuSection {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    .about_text {
+        margin: 20px 0;
+    }
+}
