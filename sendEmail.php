@@ -27,7 +27,7 @@ if (isset($_POST['send'])) {
   }
   if ($isValid == "yes") {
     if (mail($to, $subject, $body)) {
-      header('location:http://loganjvickery.com/thanks.php ');
+      header('location:http://loganjvickery.com/thanks.html ');
     } else {
      echo("<p>Message delivery failed...</p>");
     }

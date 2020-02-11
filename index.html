@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content="logan vickery, developer, front-end, front-end developer, javascript, portland, oregon, web design">
+    <meta name="description" content="Logan J Vickery - Front-End Developer">
+    <meta name="author" content="Logan J Vickery">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Logan J Vickery - Front-End Web Developer</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="ljvd.css">
+    <link rel="shortcut icon" href="ljv.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <div class="contain top">
+            <div class="name">Logan J Vickery / Portfolio</div>
+            <nav>
+                <a href="#skills">skills</a>
+                <a href="#about">about</a>
+                <a href="#gallery">works</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </div>
+        <div class="hello contain">
+            <div class="hellotext"> <span class="bold">Front-End Web Developer </span> in <span class="bold">Portland,
+                    OR</span> crafting inspiring and easy-to-use web experiences.
+            </div>
+        </div>
+    </header>
+    <section id="skills">
+        <h2>Skills</h2>
+        <icons class="contain">
+            <icon class="icon-code">HTML & CSS</icon>
+            <icon class="icon-js">JavaScript & jQuery</icon>
+            <icon class="icon-adobe">Adobe Illustrator & Photoshop</icon>
+            <icon class="icon-wireframe">Wireframing & Flow Charts</icon>
+        </icons>
+    </section>
+    <section id="about">
+        <div class="contain">
+            <h2>About Me</h2>
+            <div class="about_text"><img src="/images/headshot.jpg" />
+                <p>I first began teaching myself how to code as a hobby in 2003. Later, while studying Industrial Design at
+                    Georgia Tech I used my coding skills to create and maintain my online portfolio. After 5 years of working
+                    in the design industry I decided to switch things up and do web development professionally.
+                    I brushed up on my coding skills, participated in (and won) a few hack-a-thons, worked on some side
+                    projects, and landed a few small freelance projects. Then, in 2016 I got my first full-time
+                    development position in Portland, OR and have been loving it ever since.</p>
+                <p>Outside of coding you'll find me cycling on one of my bikes, doing outdoorsy things, traveling,
+                    cooking, discovering new music, and playing games with friends.</p>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="contain">
+            <h2>Selected Works</h2>
+            <tiles>
+                <tile>
+                    <div class="jsgame" onclick="showProject('jsgame');"></div>
+                    <p>JavaScript Game</p>
+                </tile>
+                <tile>
+                    <div class="planets" onclick="showProject('planets');"></div>
+                    <p>Web Application</p>
+                </tile>
+                <tile>
+                    <div class="formatter" onclick="showProject('formatter');"></div>
+                    <p>Web Application</p>
+                </tile>
+                <tile>
+                    <div class="megamenu" onclick="showProject('megamenu');"></div>
+                    <p>Web Development</p>
+                </tile>
+                <tile>
+                    <div class="biketrain" onclick="showProject('biketrain');"></div>
+                    <p>Mobile UI Design</p>
+                </tile>
+                <tile>
+                    <div class="hop" onclick="showProject('hop');"></div>
+                    <p>Logo Design</p>
+                </tile>
+                <tile>
+                    <div class="wfd" onclick="showProject('wfd');"></div>
+                    <p>Mobile UI Design</p>
+                </tile>
+                <tile>
+                    <div class="nexttable" onclick="showProject('nexttable');"></div>
+                    <p>Product Design</p>
+                </tile>
+            </tiles>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contactmax">
+            <!--form class="center_form" method="post" name="contactForm" action="scripts/sendEmail.php" onsubmit="return validateForm">-->
+            <form method="post" name="contactForm" action="scripts/sendEmail.php">
+                <h2>Let's Chat</h2>
+                <input class="input1" placeholder="Name*" name="name" type="text" required><br><br>
+                <input class="input1" placeholder="Company" name="company" type="text"><br><br>
+                <input class="input1" placeholder="Email* (e.g. name@company.com)" name="email" type="email"
+                    pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" required><br><br>
+                <input class="input1" placeholder="Phone" name="phone" type="text"><br><br>
+                <textarea class="input2" placeholder="Message*" name="msg" required></textarea><br><br>
+                <p class="asterick">*This field is required</p>
+                <input class="send" name="send" value="Send" type="submit"><br><br>
+            </form>
+        </div>
+    </section>
+    <footer>
+        Website designed and coded by Logan J Vickery. All photos and work property of Logan J Vickery, 2009-<span
+            id="thisYear">2018</span>.
+    </footer>
+    <script src="scripts/scripts.js" type="text/javascript"></script>
+</body>
+
+</html>
